@@ -38,6 +38,10 @@ group :doc do
  group :development do
 	 gem 'rspec-rails', '2.0.0.beta.18'
  end
+ group :production do
+	 gem 'pg', '0.15.1'
+	 gem 'rails_12factor', '0.0.2'
+ end
 end
 
 # Use ActiveModel has_secure_password
